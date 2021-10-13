@@ -1,6 +1,8 @@
 # Neodymium
 A traditional proxy site that adds on to [Vanadium](https://github.com/titaniumnetwork-dev/vanadium)
 
+<img src="/public/assets/neo.png">
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/degenerate0001/neodymium/tree/main)
 
 ## Setup
