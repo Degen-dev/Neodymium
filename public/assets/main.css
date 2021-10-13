@@ -19,9 +19,9 @@ body {
 
 :root {
   --accents: #222;
-  --backgrounds: #222;
+  --backgrounds: #1f1f2e;
   --navbg: #111;
-  --textcolor: white;
+  --textcolor:white;
   --outlines: gray;
   --hovers: #444;
 }
@@ -36,6 +36,10 @@ body {
 
 a:link {
   text-decoration: none;
+}
+
+h4:hover {
+  text-decoration: underline;
 }
 
 .navbar {
@@ -133,6 +137,10 @@ ul {
   left:-40px;
 }
 
+.b-box a:hover {
+  text-decoration: underline;
+}
+
 .bar {
   margin-top: 6px;
   margin-bottom: 6px;
@@ -166,6 +174,18 @@ margin-left: auto;
   text-align:center;
   margin-right: auto;
 margin-left: auto;
+}
+
+#iframe_frame {
+  position: fixed;
+  width: 100%;
+  height: 95%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  border: none;
+  background-color: white;
 }
 
 input,
