@@ -1,7 +1,7 @@
 {
-    "name": "Vanadium",
-    "description": "High quality Web-Proxy based around the Corrosion proxy framework.",
-    "repository": "https://github.com/titaniumnetwork-dev/Vanadium",
+    "name": "Neodymium",
+    "description": "High quality Web-Proxy based around the Corrosion proxy framework. An addon to Vanadium.",
+    "repository": "https://github.com/degenerate0001/neodymium",
     "logo": "https://avatars.githubusercontent.com/u/47227492?s=200&v=4",
-    "keywords": ["corrosion", "proxy", "web-unblocker", "internet", "gaming", "unblock", "vanadium"]
+    "keywords": ["corrosion", "proxy", "web-unblocker", "internet", "gaming", "unblock", "vanadium", "neodymium]
 }
