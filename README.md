@@ -7,7 +7,7 @@ A traditional proxy site that adds on to [Vanadium](https://github.com/titaniumn
 
 ```sh
 git clone https://github.com/Degenerate0001/neodymium
-cd Neodymium
+cd neodymium
 node server.js
 ```
 
