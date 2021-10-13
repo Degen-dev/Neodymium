@@ -6,23 +6,29 @@
     <meta name="Description" content="Titanium Web Services.">
     <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="/assets/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body style="overflow:hidden;">
-    <div class="navbar" id="navBar">
-      <a href="/">Home</a>
-      <a href="/media.html">Media</a>
-      <a href="https://discord.gg/unblock" target="_blank">Community</a>
-      <a href="javascript:void(0);" class="icon" onclick="navToggle()"><i class="fa fa-bars"></i></a>
+    <iframe id="iframe_frame" src=""></iframe>
+      <div class="navbar" id="navBar">
+        <a href="/">Home</a>
+        <a href="/media">Media</a>
+        <a href="https://discord.gg/unblock" target="_blank">Community</a>
+        <a href="javascript:void(0);" class="icon" onclick="navToggle()"><i class="fa fa-bars"></i></a>
+      </div>
+    <div class="bodycontainer">
+      <h1>
+        Neodymium-Vanadium
+      </h1>
+      <form class="bar" id="searchform">
+        <input type="text" autocomplete="off" name="search-bar" id="search-bar" list="searchsuggestions" placeholder="Enter search term or direct URL.">
+        <button type="button" onclick="stealth()"><i style="color:white;" class="fa fa-eye-slash"></i></button><button aria-label="Submit" type="submit"><i style="color:white;" class="fa fa-arrow-right" aria-hidden="true"></i></button><datalist id="searchsuggestions"></datalist>
+      </form>
+      <h4>
+        <a href="/legal">Legal Information.</a>
+      </h4>
+      <noscript>Sorry for the inconvenience. Your browser does not support Javascript, meaning functionality of this website is not guaranteed.</noscript>
     </div>
-  <div class="bodycontainer">
-    <h1>Titanium Web Services</h1>
-    <form class="bar" id="searchform">
-      <input type="text" autocomplete="off" class="sinput" name="search-bar" id="search-bar" list="searchsuggestions" placeholder="Enter search query or direct URL.">
-      <button aria-label="Submit" type="submit"><i style="color:white;" class="fa fa-arrow-right" aria-hidden="true"></i></button><datalist id="searchsuggestions"></datalist>
-    </form>
-    <h4><a href="/assets/legal.txt">Legal Information.</a></h4>
-    <noscript>Sorry for the inconvenience. Your browser does not support Javascript, meaning functionality of this website is not guaranteed.</noscript>
-  </div>
   <script src="./assets/main.js"></script>
   </body>
 </html>
