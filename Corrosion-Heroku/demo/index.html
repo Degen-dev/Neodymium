@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Service</title>
+		<style>
+			body {
+				text-align: center;
+				color: white;
+				background-color: #202020;
+				font-family: sans-serif;
+			}
+		</style>
+	</head>
+	<body>
+		<h2>Corrosion</h2>
+		<input id="url" name="url" placeholder="Enter Url">
+		<input id="go" type="submit" value="Go">
+		<script>
+			function xor(str) {
+				return encodeURIComponent(str.toString().split('').map((char, ind) => ind % 2 ? String.fromCharCode(char.charCodeAt() ^ 2) : char).join(''));
+			}
+			
+			document.getElementById("go").onclick = function() {
+				var value = document.getElementById("url").value;
+				if (value) window.location.href = "c/" + xor(/^(http:\/\/|https:\/\/)/i.test(value) ? value : "https://" + value);
+			}
+			
+		</script>
+	</body>
+</html>
