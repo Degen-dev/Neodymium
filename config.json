@@ -3,6 +3,5 @@
     "ssl": false,
     "prefix": "/search/",
     "codec": "xor",
-    "localAddresses": [],
-    "blockedHostnames": []
+    "blacklist": []
 }
