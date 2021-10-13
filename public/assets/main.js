@@ -16,7 +16,7 @@ function isURL(a) {
 // Page Detection Begin
 try {
     var search = document.getElementById("search-bar"),
-        searchprovider = `https://duckduckgo.com/`,
+        searchprovider = `https://duckduckgo.com`,
         suggelem = document.getElementById("searchsuggestions"),
         elemadd = (a, b, c) => Object.assign(b.appendChild(document.createElement(a)), c);
     // Search Suggestions
@@ -41,5 +41,15 @@ try {
         })
 
     } catch {}
-}
+};
+
+//Degenerate shit
+const form = document.querySelector('form') || '';
+const input = form ? form.querySelector('input') : '';
+const iframe_frame = document.getElementById("iframe_frame");
+
+function stealth() {
+    iframe_frame.style.display = "initial";
+    iframe_frame.setAttribute("src", "/search/gateway?url=" + input.value);
+};
 // Page Detection End
