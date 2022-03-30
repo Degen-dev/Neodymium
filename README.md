@@ -1,3 +1,6 @@
+# Archived
+I have opted to archive this fork, as I am no longer maintaining it. Instead, I am focussing more on my personal site, [Degeneracy](https://github.com/Degen-dev/Degeneracy).
+
 # Neodymium
 A traditional proxy site that adds on to [Vanadium](https://github.com/titaniumnetwork-dev/vanadium)
 
